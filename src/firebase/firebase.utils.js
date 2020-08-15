@@ -42,7 +42,6 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
   return userRef;
 }
 
-
 //ran once in App.jsx to programmatically add initial SHOP_DATA to firebase
 export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => {
   const collectionRef = firestore.collection(collectionKey);
