@@ -8,8 +8,6 @@ import {
 
 import CollectionItem from '../../components/collection-item/collection-item';
 
-
-
 const CollectionPreview = ({ title, items }) => (
   <CollectionPreviewContainer>
     <Title>{title.toUpperCase()}</Title>
@@ -23,6 +21,5 @@ const CollectionPreview = ({ title, items }) => (
     </PreviewContainer>
   </CollectionPreviewContainer>
 );
-
 
 export default CollectionPreview;
